@@ -472,7 +472,7 @@ export const menuPortalCSS = ({ rect, offset, position }: PortalStyleArgs) => ({
   position: position,
   top: offset,
   width: rect.width,
-  zIndex: 1,
+  zIndex: 9999,
 });
 
 export class MenuPortal extends Component<MenuPortalProps, MenuPortalState> {
